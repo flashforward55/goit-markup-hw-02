@@ -32,6 +32,10 @@ body {
     text-decoration: none;
 }
 
+.nav-link.link.current {
+    color: var(--accent-color);
+}
+
 /* Hader */
 
 .header-logo,
@@ -43,8 +47,7 @@ body {
     color: var(--accent-color);
 }
 
-.header-logo-text,
-.footer-logo-text {
+.header-logo-text {
     color: var(--secondary-black-color);
 }
 
@@ -153,10 +156,14 @@ body {
 
 .footer {
     background-color: var(--footer-bg-color);
+    color: var(--primary-white-color)
+}
+
+.footer-logo-text {
+    color: var(--primary-white-color);
 }
 
 .footer-address-contact {
-    color: var(--primary-white-color);
     font-style: normal;
     line-height: 1.71;
 }
