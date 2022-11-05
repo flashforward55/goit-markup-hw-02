@@ -24,6 +24,14 @@ body {
     line-height: 1.14;
 }
 
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
 /* Hader */
 
 .header-logo {
@@ -38,10 +46,103 @@ body {
     color: var(--secondary-black-color);
 }
 
-.list {
-    list-style: none;
+.nav-item .nav-link {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: inherit;
 }
 
-.link {
-    text-decoration: none;
+.header .link:hover,
+.header .link:focus,
+.header .link:active {
+    color: var(--accent-color);
+}
+
+.contact-link {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
+/* Section Hero */
+
+.hero {
+    background-color: var(--footer-bg-color);
+    color: var(--primary-white-color);
+    text-align: center;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-btn {
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero-btn.hero-btn-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--primary-white-color);
+}
+
+/* Section scills */
+
+.scills-subtitle {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: inherit;
+}
+
+.scills-text {
+    line-height: 1.71;
+    color: var(--secondary-text-color);
+}
+
+/* Section work */
+
+.work-title,
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/* Section team */
+
+.team {
+    background-color: var(--secondary-bg-color);
+
+}
+
+.team-subtitle,
+.team-text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+
+}
+
+.team-subtitle {
+    font-weight: 500;
+}
+
+.team-text {
+    color: var(--secondary-text-color);
+}
+
+.team-item {
+    background-color: var(--primary-white-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
