@@ -23,3 +23,25 @@ body {
     letter-spacing: 0.03em;
     line-height: 1.14;
 }
+
+/* Hader */
+
+.header-logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--accent-color);
+}
+
+.header-logo-text {
+    color: var(--secondary-black-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
