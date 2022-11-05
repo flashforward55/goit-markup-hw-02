@@ -69,7 +69,7 @@ body {
     color: var(--secondary-text-color);
 }
 
-/* Section Hero */
+/* Section hero */
 
 .hero {
     background-color: var(--footer-bg-color);
@@ -152,7 +152,7 @@ body {
     border-radius: 0px 0px 4px 4px;
 }
 
-/* Footer */
+/* footer */
 
 .footer {
     background-color: var(--footer-bg-color);
