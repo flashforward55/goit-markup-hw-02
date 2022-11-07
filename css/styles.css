@@ -37,7 +37,7 @@ body {
     color: var(--accent-color);
 }
 
-/* Hader */
+/* Header */
 
 .header-logo,
 .footer-logo {
@@ -152,7 +152,7 @@ body {
     border-radius: 0px 0px 4px 4px;
 }
 
-/* footer */
+/* Footer */
 
 .footer {
     background-color: var(--footer-bg-color);
